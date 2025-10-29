@@ -21,7 +21,7 @@ This project can be used to monitor phone usage in classrooms, offices, and onli
 ---
 
 ## 🛠️ Tech Stack
-Component	Description
+
 Language	-->Python 3.10+
 Framework-->YOLOv5 (PyTorch)
 Libraries-->OpenCV, Torch, NumPy
