@@ -9,7 +9,7 @@ Captures live video frames from your webcam using OpenCV.
 
 Each frame is processed by YOLOv5 to detect objects.
 
-If a cell phone class is identified, it draws a bounding box and displays “Phone Detected” with a confidence score.
+
 ---
 
 ## 📘 Description
