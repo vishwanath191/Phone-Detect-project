@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyTorch / torch cache
+.cache/
+
+# PyTorch model files
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Application outputs
+phone_captures/
+
+# Logs
+*.log
