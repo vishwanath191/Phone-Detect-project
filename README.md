@@ -2,20 +2,28 @@
 
 Simple webcam-based phone detector using YOLOv5 via torch.hub.
 
-Quick start (Windows PowerShell):
 
-1. Activate virtual environment
+🔍 Working Principle
 
-   .\\.venv\\Scripts\\Activate.ps1
+Captures live video frames from your webcam using OpenCV.
 
-2. Install dependencies (if not already installed)
+Each frame is processed by YOLOv5 to detect objects.
 
-   & .\\venv\\Scripts\\python.exe -m pip install -r requirements.txt
+If a cell phone class is identified, it draws a bounding box and displays “Phone Detected” with a confidence score.
+---
 
-3. Run
+## 📘 Description
+The Phone Detector is a computer vision project that uses a webcam and a YOLOv5 object detection model to automatically detect the presence of a mobile phone in real time.
+It combines the power of OpenCV for video processing and YOLOv5 for deep learning–based detection, providing fast and accurate results on live camera feed.
 
-   & .\\venv\\Scripts\\python.exe main.py
+This project can be used to monitor phone usage in classrooms, offices, and online exam setups — or integrated into IoT security systems for automation and safety.
 
-Notes
-- Captured images are saved to the `phone_captures` directory.
-- If you push this repo to GitHub, add a `requirements.txt` (e.g. `pip freeze > requirements.txt`) so others can install the same deps.
+---
+
+## 🛠️ Tech Stack
+Component	Description
+Language	-->Python 3.10+
+Framework-->YOLOv5 (PyTorch)
+Libraries-->OpenCV, Torch, NumPy
+Model----->Pre-trained YOLOv5 model (COCO dataset)
+Hardware	-->Any webcam or USB camera
