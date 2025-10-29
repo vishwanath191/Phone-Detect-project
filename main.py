@@ -1,12 +1,3 @@
-"""
-Webcam Phone Detector using YOLOv5 (torch.hub)
-- Press 'q' to quit.
-- When a phone is detected, the frame is saved to disk (phone_capture_<timestamp>.jpg).
-Notes:
-- Requires internet the first run to download the model weights.
-- Install: pip install torch torchvision opencv-python
-"""
-
 import cv2
 import time
 import torch
